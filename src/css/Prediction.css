@@ -1,0 +1,8 @@
+.Prediction {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.Prediction-Number {
+  color: #ff6600;
+}

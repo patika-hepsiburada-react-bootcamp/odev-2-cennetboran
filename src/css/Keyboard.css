@@ -1,0 +1,17 @@
+.Keyboard {
+  text-transform: uppercase;
+  bottom: 20px;
+  position: absolute;
+  left: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Keyboard > div {
+  margin-bottom: 8px;
+}
+
+.Keyboard > div:last-child {
+  margin-bottom: 0;
+}

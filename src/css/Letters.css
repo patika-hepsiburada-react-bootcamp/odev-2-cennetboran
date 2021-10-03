@@ -1,0 +1,11 @@
+.Letters {
+  display: flex;
+}
+
+.Letters > .LetterBlock {
+  margin-right: 1em;
+}
+
+.Letters > .BlockLetters:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,21 @@
+.BlockLetters {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 5px;
+  width: 2em;
+  height: 2em;
+  color: #000;
+}
+
+.BlockLetters:hover {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(to bottom, #000 0%, #000 100%);
+}
+
+.BlockLetters > span {
+  font-weight: 400;
+}
